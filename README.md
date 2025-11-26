@@ -19,28 +19,28 @@ The analysis proceeds in five main stages:
 
 **Data preprocessing**
 
-  Import, QC filtering, imputation, normalization, and scaling of multi-omics features
+  - Import, QC filtering, imputation, normalization, and scaling of multi-omics features
   
-  Feature discretization using TreeFARMS threshold-guessing algorithm
+  - Feature discretization using TreeFARMS threshold-guessing algorithm
 
 **Cross-validation setup**
 
-5-fold stratified CV by individual ferret to prevent data leakage
+- 5-fold stratified CV by individual ferret to prevent data leakage
 
 **Model training (TreeFARMS)**
 
-Global optimization via GOSDT solver (λ = 0.008)
+- Global optimization via GOSDT solver (λ = 0.008)
 
-Generation of sparse, interpretable if–then rule sets
+- Generation of sparse, interpretable if–then rule sets
 
 **Rashomon set exploration**
 
-Extraction of all near-optimal trees within 5 % of global optimum
+- Extraction of all near-optimal trees within 5 % of global optimum
 
-Quantification of rule and feature recurrence across models
+- Quantification of rule and feature recurrence across models
 
 **Interpretability & visualization**
 
-Aggregation of stable features and visualization of model diversity
+- Aggregation of stable features and visualization of model diversity
 
-Comparison with Random Forest baseline
+- Comparison with Random Forest baseline
