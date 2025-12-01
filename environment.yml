@@ -1,0 +1,19 @@
+name: iml-ferret
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy>=1.22
+  - pandas>=1.4
+  - scikit-learn>=1.2
+  - matplotlib>=3.5
+  - scipy>=1.9
+  - pip
+  - pip:
+      - treefarms>=1.0
+      - treeshaped>=1.0
+      - pulp>=2.7
+      - ortools>=9.6
+      - xgboost>=2.0
+      - tqdm>=4.64
