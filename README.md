@@ -1,4 +1,4 @@
-# Interpretable Machine Learning for Vaccine Response in Ferrets
+# Interpretable Machine Learning Identifies Molecular Signatures of Vaccine Response in Ferret Multi-Omics Data 
 
 🧬 Interpretable Machine Learning Identifies Molecular Signatures of Vaccine Response in Ferret Multi-Omics Data
 
