@@ -112,7 +112,7 @@ From the repository root:
 pip install -r requirements.txt
 
 # Run the main script
-python src/ml_comparison_pipeline.py
+python scripts/IML_ferret_pipeline.py
 ```
 
 The script will:
