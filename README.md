@@ -30,7 +30,7 @@ The pipeline assumes a processed CSV with the following structure:
 
 In the original analysis, we used:
 ```
-data/task6_vax2_processed_all_2filters.csv
+data/processed_data.csv
 ```
 
 
